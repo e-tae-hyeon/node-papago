@@ -1,0 +1,19 @@
+{
+  "name": "node-papago",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "translate": "npx tsx ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "translate": "^3.0.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.2"
+  },
+  "type": "module"
+}
