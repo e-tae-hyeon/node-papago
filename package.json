@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "translate": "npx tsx ./src/app.ts"
+    "start": "npx tsx ./src/app.ts"
   },
   "dependencies": {
     "@types/node": "^20.14.10",
